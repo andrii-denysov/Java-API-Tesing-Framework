@@ -1,5 +1,8 @@
 package api.enums;
 
+import lombok.Getter;
+
+@Getter
 public enum JsonSchemas {
 
     STORE_INVENTORY("jsonSchemas/inventory-schema.json"),
@@ -7,10 +10,6 @@ public enum JsonSchemas {
 
     JsonSchemas(String path) {
         this.path = path;
-    }
-
-    public String getPath() {
-        return path;
     }
 
     private final String path;

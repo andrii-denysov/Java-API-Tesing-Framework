@@ -6,7 +6,6 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 
 import java.io.IOException;
 import java.time.OffsetDateTime;
-import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 public class OffsetDateTimeSerializer extends JsonSerializer<OffsetDateTime> {

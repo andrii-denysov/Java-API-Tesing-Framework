@@ -1,6 +1,5 @@
 package api.helpers;
 
-import api.helpers.serializers.OffsetDateTimeSerializer;
 import io.restassured.RestAssured;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;

@@ -1,5 +1,8 @@
 package api.enums;
 
+import lombok.Getter;
+
+@Getter
 public enum Routes {
 
     STORE_INVENTORY("/store/inventory"),
@@ -8,10 +11,6 @@ public enum Routes {
 
     Routes(String endpoint) {
         this.endpoint = endpoint;
-    }
-
-    public String getEndpoint() {
-        return endpoint;
     }
 
     private final String endpoint;
